@@ -1,0 +1,285 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.containers{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.containers ul{
+    display: flex;
+    gap:50px;
+   
+}
+.containers a{
+    color: black;
+    transition: opacity 0.3s ease;
+    font-size: 20px;
+}
+.containers a:hover{
+    opacity: 0.5;
+}
+.cont_img img{
+    height: 100px;
+}
+
+.hard{
+    background-image: url(resim\ 1.jpg);
+   position: relative;
+   top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  height: 400px;
+}
+.hard p{
+    padding-left: 60px;
+    padding-top: 60px;
+    color: white;
+}
+.hard h1{
+    padding-left: 60px;
+    padding-top: 60px;
+    color: white;
+}
+.hard button{
+    border-radius: 10px; 
+    height: 40px;
+    width: 150px;
+position: relative;
+border: 1px solid white;
+left: 50px;
+font-size: 20px;
+background-color: transparent;
+
+}
+.hard button:hover{
+    background-color: rgb(253, 253, 253);
+}
+.hard button a{
+    color: white;
+}
+.hard button a:hover{
+    color: black
+}
+
+.ikon{
+    display: flex;
+    justify-content: space-around;
+    gap:20px
+}
+
+.sort{
+    display: flex;
+    position: relative;
+    top: 50px;
+    gap:20px;
+   
+}
+.sort h1{
+    position: relative;
+    left: 1000px;
+    transition: opacity 0.3s ease;
+    font-size: 15px;
+    
+}
+.sort a{
+    color: black;
+}
+.sort h1:hover{
+    opacity: 0.5;
+}
+.sort i{
+    position: relative;
+    left: 1000px;
+    color: black;
+    font-size: 15px;
+}
+.sort i:hover{
+    color: brown;
+}
+.catos{
+    display: flex;
+}
+.catos i{
+    position: relative;
+    left: 280px;
+    color: black;
+}
+.cato h1{
+    font-size: 17px;
+position: relative;
+left:90px ;
+
+}
+.line{
+    height: 1px;
+    width: 300px;
+    background-color: rgb(35, 34, 34);
+  position: relative;
+margin-top: 30px;
+
+}
+.pro{
+    display: flex;
+    background-color: rgb(255, 251, 245);
+ 
+   
+}
+.forma{
+    padding-top: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.product{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+.products{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+overflow: hidden;
+
+
+margin-top: 50px;
+}
+.product_img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+.product_img img{
+    height: 100%;
+    width: 100%; 
+
+}
+.product_text{
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+.product_text p{
+    font-size: 20px;
+}
+.product_text a{
+    color: black;
+}
+.product_text a:hover{
+    color: blue;
+}
+.product_icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_icon:hover {
+    color: rgb(255, 55, 0);
+    
+}
+
+.first{
+    background-color: rgba(0, 0, 0, 0.886);
+    background-size: cover;
+    color: white;
+    display: flex;
+    padding-bottom: 100px;
+}
+.second{
+    font-size: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.second h1{
+    position: relative;
+    right: 100px;
+    font-size: 30px;
+}
+.second h2{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+}
+.second input{
+    position: relative;
+    left: 50px;
+    height: 28px;
+}
+.second button{
+    position: relative;
+    left: 50px;
+    height: 30px;
+    width: 60px;
+}
+.first h1{
+  padding-left: 150px;
+  
+}
+.first p{
+  padding-left: 160px;
+
+}
+.martini{
+    display: flex;
+}
+.martini a{
+color: white;
+}
+.martini a:hover{
+    color: red;
+}
+
+ .social_media{
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top:10px
+   
+ }
+ .social_media a{
+    display: inline-block;
+    margin: 0 10px;
+    color:#fffefe;
+    text-decoration: none;
+  
+    position: relative;
+ }
+ .social_media a:hover{
+    color: red;
+ }
+ .dinals p{
+    position: relative;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+ }
+
+
+ .final{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #0b0404c2;
+  
+ }
